@@ -1,0 +1,11 @@
+Από το root του project:
+
+mkdir -p data
+javac -d out src/*.java
+java -cp out Main
+
+Σε Windows:
+
+mkdir data
+javac -d out src\*.java
+java -cp out Main
